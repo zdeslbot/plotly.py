@@ -144,7 +144,7 @@ import plotly.io as pio
 
 import pandas as pd
 
-df = pd.read_csv("https://plotly.com/~public.health/17.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/plotly/datasets/add-dataset/17.csv")
 
 data = [dict(
   x = df['date'],
